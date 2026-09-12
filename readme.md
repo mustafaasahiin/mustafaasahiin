@@ -1,132 +1,67 @@
-<div align="center">
-
 # Mustafa Şahin
 
-### Ideas are cheap. I build the working version.
+**I build cross-platform apps and developer tools, from first prototype to working product.**
 
-Cross-platform apps, developer tools, and competition builds.<br>
-From first concept to a usable product — under real deadlines.
+I compete in shipatons and hackathons. I work across languages, with a focus on practical software, tight scope, and fast delivery.
 
-<br>
-
-<a href="https://github.com/mustafaasahiin?tab=repositories">
-  <img src="https://img.shields.io/badge/EXPLORE_MY_WORK-18181B?style=for-the-badge&logo=github&logoColor=white" alt="Explore my work">
-</a>
-<a href="#actuate">
-  <img src="https://img.shields.io/badge/LATEST_BUILD_%E2%86%93-ACTUATE-A3E635?style=for-the-badge&labelColor=18181B" alt="Latest build: Actuate">
-</a>
-
-</div>
+[Repositories](https://github.com/mustafaasahiin?tab=repositories) · [GitHub](https://github.com/mustafaasahiin)
 
 <br>
 
-<a id="actuate"></a>
+## Actuate
+**Latest project · Shipaton 2026 · iOS & Android**
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=18181B&height=220&text=ACTUATE&fontSize=76&fontColor=A3E635&fontAlignY=43&desc=Speak%20it.%20Consider%20it%20organized.&descSize=22&descAlignY=72&descColor=FFFFFF" width="100%" alt="Actuate — Speak it. Consider it organized.">
-</p>
-
-<p align="center">
-  <strong>FEATURED BUILD · SHIPATON 2026</strong><br>
-  Voice → calendar events, tasks, shopping lists, and reminders.
-</p>
-
-<br>
-
-### One sentence. Several things handled.
-
-Actuate turns spoken thoughts into organized action. Built for iOS and Android, it separates multiple intentions in one sentence and connects them to the tools people actually use.
+A voice assistant that turns spoken thoughts into calendar events, tasks, shopping lists, and reminders.
 
 > “Schedule a team call tomorrow at ten, add coffee to my shopping list, and remind me to send the proposal tonight.”
 
-**A calendar event. A shopping item. A reminder. One input.**
+Actuate separates those requests into individual actions. The work behind that interaction includes:
 
-<table>
-<tr>
-<td width="50%" valign="top">
+- **Multi-intent parsing** — handling several unrelated requests in a single sentence.
+- **Google Calendar integration** — OAuth authentication and event creation in the user’s calendar.
+- **Offline capture** — queuing requests and completing them when connectivity returns.
+- **In-app subscriptions** — a free tier and an Unlimited upgrade through RevenueCat.
 
-<h3>🎙️ Understand the whole thought</h3>
-Multiple requests in one sentence, parsed into separate actions without making the user speak in commands.
+The core systems are built and individually tested. The current focus is release verification.
 
-</td>
-<td width="50%" valign="top">
-
-<h3>📅 Reach the real calendar</h3>
-Google Calendar integration with OAuth and real event creation.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<h3>✈️ Keep going offline</h3>
-Capture requests without a connection. Queued actions finish when connectivity returns.
-
-</td>
-<td width="50%" valign="top">
-
-<h3>⚡ Build beyond the demo</h3>
-A free tier and an Unlimited upgrade, with in-app subscriptions powered by RevenueCat.
-
-</td>
-</tr>
-</table>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Google_Calendar-4285F4?style=flat-square&logo=googlecalendar&logoColor=white" alt="Google Calendar">
-  <img src="https://img.shields.io/badge/OAuth_2.0-18181B?style=flat-square" alt="OAuth 2.0">
-  <img src="https://img.shields.io/badge/RevenueCat-F2545B?style=flat-square&logo=revenuecat&logoColor=white" alt="RevenueCat">
-  <img src="https://img.shields.io/badge/Offline_Queue-18181B?style=flat-square" alt="Offline queue">
-</p>
+![Google Calendar](https://img.shields.io/badge/Google_Calendar-4285F4?style=flat-square&logo=googlecalendar&logoColor=white)
+![RevenueCat](https://img.shields.io/badge/RevenueCat-F2545B?style=flat-square&logo=revenuecat&logoColor=white)
+![OAuth 2.0](https://img.shields.io/badge/OAuth_2.0-555555?style=flat-square)
 
 <br>
 
-## The builder behind the build
+## How I work
 
-I’m a product-focused engineer building across languages and platforms. I compete in shipatons and hackathons, where a deadline forces useful decisions: what matters, what can wait, and what needs to work when someone else picks it up.
+I’m interested in software that reduces the effort between deciding to do something and getting it done: fewer repetitive steps, less manual entry, better connections between tools.
 
-I like problems involving **messy input, repetitive work, and disconnected tools**. My focus is turning that friction into a simple, usable workflow.
-
-**Choose the stack for the problem. Own the full flow. Ship it.**
+Competitions push me to make those decisions quickly. I choose languages and frameworks around what the product needs, and take responsibility for the complete workflow, including authentication, connectivity, and payments.
 
 <br>
 
-## Smaller tools. Specific jobs.
+## APIs & utilities
 
-Alongside my app work, I build focused APIs for data conversion, website inspection, and validation.
+Smaller, focused projects supporting my product work.
 
-| Data & validation | Website tooling |
+| Project | Focus |
 | :--- | :--- |
-| **[JSON → CSV](https://github.com/mustafaasahiin/Json-To-Csv-API)**<br>Convert JSON into tabular data. | **[Tech Stack Detector](https://github.com/mustafaasahiin/Tech-Stack-Detector-API)**<br>Identify technologies behind a website. |
-| **[Metadata Extractor](https://github.com/mustafaasahiin/Metadata-Extractor-API)**<br>Extract metadata for downstream workflows. | **[SEO Keyword Analyser](https://github.com/mustafaasahiin/SEO-keyword-analyser-API)**<br>Analyse keywords for SEO work. |
-| **[Disposable Email Detector](https://github.com/mustafaasahiin/Disposable-Email-Detector-API)**<br>Identify disposable email addresses. | **[Broken Link Checker](https://github.com/mustafaasahiin/Broken-Link-Checker-API)**<br>Find links that need attention. |
+| [JSON to CSV](https://github.com/mustafaasahiin/Json-To-Csv-API) | Data conversion |
+| [Metadata Extractor](https://github.com/mustafaasahiin/Metadata-Extractor-API) | Metadata extraction |
+| [Tech Stack Detector](https://github.com/mustafaasahiin/Tech-Stack-Detector-API) | Website technology detection |
+| [SEO Keyword Analyser](https://github.com/mustafaasahiin/SEO-keyword-analyser-API) | Keyword analysis |
+| [Broken Link Checker](https://github.com/mustafaasahiin/Broken-Link-Checker-API) | Link validation |
+| [Disposable Email Detector](https://github.com/mustafaasahiin/Disposable-Email-Detector-API) | Email screening |
 
 <br>
 
 <details>
-<summary><strong>GitHub activity & language breakdown</strong></summary>
+<summary>GitHub activity</summary>
 
 <br>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=mustafaasahiin&theme=dark&hide_border=true&background=18181B&ring=A3E635&fire=A3E635&currStreakLabel=A3E635" alt="Mustafa's GitHub contribution streak">
-</p>
+![Contribution graph](https://github-readme-activity-graph.vercel.app/graph?username=mustafaasahiin&theme=github-compact&hide_border=true)
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mustafaasahiin&layout=compact&hide_border=true&bg_color=18181B&title_color=A3E635&text_color=E4E4E7" alt="Language breakdown across public repositories">
-</p>
+![Contribution streak](https://streak-stats.demolab.com/?user=mustafaasahiin&theme=transparent&hide_border=true)
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mustafaasahiin&bg_color=18181B&color=E4E4E7&line=A3E635&point=FFFFFF&area=true&hide_border=true" width="100%" alt="GitHub contribution activity graph">
-</p>
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mustafaasahiin&layout=compact&theme=transparent&hide_border=true)
 
 </details>
-
-<br>
-
-<p align="center">
-  <strong>Follow the next build.</strong><br><br>
-  <a href="https://github.com/mustafaasahiin">
-    <img src="https://img.shields.io/badge/mustafaasahiin-18181B?style=for-the-badge&logo=github&logoColor=A3E635" alt="Mustafa on GitHub">
-  </a>
-</p>
